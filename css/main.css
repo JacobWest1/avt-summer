@@ -1,14 +1,7 @@
-/*
-  selector {
-    property-name: value;
-}
-*/
-
 body {
   text-align: center;
-  background-color: black;
+  background-color: white;
 }
-
 h1 {
   font-size: 70px;
   text-decoration: underline;
@@ -17,7 +10,6 @@ h1 {
   letter-spacing: 5px;
   color: rgba(90, 14, 30, 1);
 }
-
 h2 {
   font-size:35px;
   text-decoration: underline;
@@ -26,12 +18,10 @@ h2 {
   letter-spacing: 5px;
   color: rgba(90, 14, 30, 1);
 }
-
 ul {
   list-style-type: none;
   padding: 0;
 }
-
 li {
   font-size: 24px;
   margin-bottom: 24px;
@@ -40,14 +30,12 @@ li {
   font-weight: bold;
   font-family: sans-serif;
 }
-
 a {
   color: rgba(90, 14, 30, 1);
   text-decoration: none;
-  transition: color 1.5s ease;
+  transition: color 1.2s ease;
 }
-
 a:hover {
   text-decoration: underline;
-  color: white;
+  color: grey;
 }
