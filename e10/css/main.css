@@ -1,0 +1,28 @@
+body {
+  background: #3399cc;
+}
+.chocolate {
+  background: #39270f;
+}
+.stick {
+  height: 5rem;
+  width: .9rem;
+  margin-left: 1.6rem;
+  background: #efcb76;
+  border-radius: 0 0 .3rem .3rem;
+}
+.icecream {
+  margin-top: .5rem;
+}
+.icecream .top {
+  height: 15rem;
+  width: 9rem;
+  border-radius: 3rem 3rem 40% 40%;
+  background: #493212;
+}
+.icecream .stick {
+  width: 1.6rem;
+  margin-left: 3.6rem;
+  margin-top: -.9rem;
+  border-radius: 80% 80% 1rem 1rem;
+}

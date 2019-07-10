@@ -1,5 +1,6 @@
 html{
   font-size: 16px;
+  background-color: darkgrey;
 }
 div {
   width: 40vw;
@@ -32,23 +33,31 @@ ol{
     background-color: black;
   }
   h1{
-    font-size: 5em;
+    font-size: 3em;
     color: white;
+    font-style: italic;
+    font-variant: small-caps;
   }
   h2 {
-    font-size: 4em;
+    font-size: 2em;
     color: white;
+    font-style: italic;
+    font-variant: small-caps;
   }
   h3{
-    font-size: 2.5em;
+    font-size: 1.8em;
     color: white;
+    font-style: italic;
+    font-variant: small-caps;
   }
   h4{
-    font-size: 1.3em;
+    font-size: 1.4em;
     color: white;
+    font-style: italic;
+    font-variant: small-caps;
   }
   p {
-    font-size: 1em;
+    font-size: 1.2em;
     color: white;
   }
   ol{
@@ -56,7 +65,7 @@ ol{
     color: white;
   }
   .intro {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: white;
   }
 }

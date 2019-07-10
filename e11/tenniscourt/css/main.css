@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: black;
+}
+.in, .serve, .side, .middle {
+  float: left;
+}
+.in, .serve, .side {
+  background-color: red;
+  border: 2px solid white;
+}
+#tenniscourt {
+  width: 400px;
+}
+.middle {
+  width: 250px;
+}
+.in {
+  width: 125px;
+  height: 200px;
+}
+.serve {
+  width: 250px;
+  height: 100px;
+}
+.side {
+  width: 75px;
+  height: 300px;
+}

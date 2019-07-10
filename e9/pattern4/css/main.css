@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#main-container {
+  width: 120vw;
+  margin: -50px -5vw;
+}
+
+.piece1,
+.piece2,
+.piece3,
+.piece4 {
+  width: 30px;
+  height: 170px;
+  float: left;
+  margin: -5px;
+}
+
+.piece1 {
+  width: 10;
+  height: 10;
+  transform: rotate(13deg);
+  border-left: 20px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 200px solid brown;
+  opacity: .3;
+}
+
+.piece2 {
+  background-color: gold;
+  transform: rotate(60deg);
+}
+
+.piece3 {
+  background-color: yellow ;
+  transform: rotate(90deg);
+}
+
+.piece4 {
+  background-color: lightyellow;
+  transform: rotate(125deg);
+}
